@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+".\ex2_922106840127_uart\startup_stm32f407xx.o"
+".\ex2_922106840127_uart\main.o"
+".\ex2_922106840127_uart\gpio.o"
+".\ex2_922106840127_uart\usart.o"
+".\ex2_922106840127_uart\stm32f4xx_it.o"
+".\ex2_922106840127_uart\stm32f4xx_hal_msp.o"
+".\ex2_922106840127_uart\stm32f4xx_hal_uart.o"
+".\ex2_922106840127_uart\stm32f4xx_hal_rcc.o"
+".\ex2_922106840127_uart\stm32f4xx_hal_rcc_ex.o"
+".\ex2_922106840127_uart\stm32f4xx_hal_flash.o"
+".\ex2_922106840127_uart\stm32f4xx_hal_flash_ex.o"
+".\ex2_922106840127_uart\stm32f4xx_hal_flash_ramfunc.o"
+".\ex2_922106840127_uart\stm32f4xx_hal_gpio.o"
+".\ex2_922106840127_uart\stm32f4xx_hal_dma_ex.o"
+".\ex2_922106840127_uart\stm32f4xx_hal_dma.o"
+".\ex2_922106840127_uart\stm32f4xx_hal_pwr.o"
+".\ex2_922106840127_uart\stm32f4xx_hal_pwr_ex.o"
+".\ex2_922106840127_uart\stm32f4xx_hal_cortex.o"
+".\ex2_922106840127_uart\stm32f4xx_hal.o"
+".\ex2_922106840127_uart\stm32f4xx_hal_exti.o"
+".\ex2_922106840127_uart\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter ".\ex2_922106840127_Uart\ex2_922106840127_Uart.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ex2_922106840127_Uart.map" -o .\ex2_922106840127_Uart\ex2_922106840127_Uart.axf

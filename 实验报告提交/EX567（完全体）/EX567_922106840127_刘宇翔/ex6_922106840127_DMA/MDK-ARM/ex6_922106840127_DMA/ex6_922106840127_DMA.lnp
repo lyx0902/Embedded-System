@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp.sp
+"ex6_922106840127_dma\startup_stm32f407xx.o"
+"ex6_922106840127_dma\main.o"
+"ex6_922106840127_dma\gpio.o"
+"ex6_922106840127_dma\dma.o"
+"ex6_922106840127_dma\usart.o"
+"ex6_922106840127_dma\stm32f4xx_it.o"
+"ex6_922106840127_dma\stm32f4xx_hal_msp.o"
+"ex6_922106840127_dma\stm32f4xx_hal_uart.o"
+"ex6_922106840127_dma\stm32f4xx_hal_rcc.o"
+"ex6_922106840127_dma\stm32f4xx_hal_rcc_ex.o"
+"ex6_922106840127_dma\stm32f4xx_hal_flash.o"
+"ex6_922106840127_dma\stm32f4xx_hal_flash_ex.o"
+"ex6_922106840127_dma\stm32f4xx_hal_flash_ramfunc.o"
+"ex6_922106840127_dma\stm32f4xx_hal_gpio.o"
+"ex6_922106840127_dma\stm32f4xx_hal_dma_ex.o"
+"ex6_922106840127_dma\stm32f4xx_hal_dma.o"
+"ex6_922106840127_dma\stm32f4xx_hal_pwr.o"
+"ex6_922106840127_dma\stm32f4xx_hal_pwr_ex.o"
+"ex6_922106840127_dma\stm32f4xx_hal_cortex.o"
+"ex6_922106840127_dma\stm32f4xx_hal.o"
+"ex6_922106840127_dma\stm32f4xx_hal_exti.o"
+"ex6_922106840127_dma\system_stm32f4xx.o"
+--strict --scatter "ex6_922106840127_DMA\ex6_922106840127_DMA.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ex6_922106840127_DMA.map" -o ex6_922106840127_DMA\ex6_922106840127_DMA.axf

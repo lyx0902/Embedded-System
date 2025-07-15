@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp.sp
+".\ex1_922106840127_gpio\startup_stm32f407xx.o"
+".\ex1_922106840127_gpio\main.o"
+".\ex1_922106840127_gpio\gpio.o"
+".\ex1_922106840127_gpio\stm32f4xx_it.o"
+".\ex1_922106840127_gpio\stm32f4xx_hal_msp.o"
+".\ex1_922106840127_gpio\stm32f4xx_hal_rcc.o"
+".\ex1_922106840127_gpio\stm32f4xx_hal_rcc_ex.o"
+".\ex1_922106840127_gpio\stm32f4xx_hal_flash.o"
+".\ex1_922106840127_gpio\stm32f4xx_hal_flash_ex.o"
+".\ex1_922106840127_gpio\stm32f4xx_hal_flash_ramfunc.o"
+".\ex1_922106840127_gpio\stm32f4xx_hal_gpio.o"
+".\ex1_922106840127_gpio\stm32f4xx_hal_dma_ex.o"
+".\ex1_922106840127_gpio\stm32f4xx_hal_dma.o"
+".\ex1_922106840127_gpio\stm32f4xx_hal_pwr.o"
+".\ex1_922106840127_gpio\stm32f4xx_hal_pwr_ex.o"
+".\ex1_922106840127_gpio\stm32f4xx_hal_cortex.o"
+".\ex1_922106840127_gpio\stm32f4xx_hal.o"
+".\ex1_922106840127_gpio\stm32f4xx_hal_exti.o"
+".\ex1_922106840127_gpio\system_stm32f4xx.o"
+--strict --scatter ".\ex1_922106840127_GPIO\ex1_922106840127_GPIO.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ex1_922106840127_GPIO.map" -o .\ex1_922106840127_GPIO\ex1_922106840127_GPIO.axf

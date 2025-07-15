@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp.sp
+"922106840127_gpio_intr\startup_stm32f407xx.o"
+"922106840127_gpio_intr\main.o"
+"922106840127_gpio_intr\gpio.o"
+"922106840127_gpio_intr\stm32f4xx_it.o"
+"922106840127_gpio_intr\stm32f4xx_hal_msp.o"
+"922106840127_gpio_intr\stm32f4xx_hal_rcc.o"
+"922106840127_gpio_intr\stm32f4xx_hal_rcc_ex.o"
+"922106840127_gpio_intr\stm32f4xx_hal_flash.o"
+"922106840127_gpio_intr\stm32f4xx_hal_flash_ex.o"
+"922106840127_gpio_intr\stm32f4xx_hal_flash_ramfunc.o"
+"922106840127_gpio_intr\stm32f4xx_hal_gpio.o"
+"922106840127_gpio_intr\stm32f4xx_hal_dma_ex.o"
+"922106840127_gpio_intr\stm32f4xx_hal_dma.o"
+"922106840127_gpio_intr\stm32f4xx_hal_pwr.o"
+"922106840127_gpio_intr\stm32f4xx_hal_pwr_ex.o"
+"922106840127_gpio_intr\stm32f4xx_hal_cortex.o"
+"922106840127_gpio_intr\stm32f4xx_hal.o"
+"922106840127_gpio_intr\stm32f4xx_hal_exti.o"
+"922106840127_gpio_intr\system_stm32f4xx.o"
+--strict --scatter "922106840127_gpio_intr\922106840127_gpio_intr.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "922106840127_gpio_intr.map" -o 922106840127_gpio_intr\922106840127_gpio_intr.axf
